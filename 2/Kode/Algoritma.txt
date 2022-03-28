@@ -1,0 +1,18 @@
+EKO RACHMAT SATRIYO
+2100018142
+C
+
+Algoritma menghitung determinan matrix 2x2
+
+Deklarasi
+	a1,b1,a2,b2	: integer (input)
+	det	     	: integer (output)
+Deskripsi
+	read  (a1,b1,b2)
+	det <-(a1*b2)-(a2*b1)
+	write (det)
+
+Algoritma
+	1.Menentukan nilai (a1,b1,a2,b2)
+	2.Menghitung rumus determinan ((a1*b2)-(a2*b1))
+	3.Menuliskan Hasil determinan (det)

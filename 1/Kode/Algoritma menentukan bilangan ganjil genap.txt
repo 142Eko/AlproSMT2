@@ -1,0 +1,9 @@
+Algoritma menentukan bilangan ganjil genap
+
+1.Start
+2.Baca bilangan(input)
+3.Membagi bilangan dengan 2 (proses)
+4.Apabila sisa bagi 0 maka bilangan tersebut adalah genap 
+  jika tidak maka bilangan tersebut adalah ganjil
+5.Menampilkan Bilangan (ganjil/genap)
+6.End
