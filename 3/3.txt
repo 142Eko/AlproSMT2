@@ -1,0 +1,33 @@
+Algoritma
+Menentukan status bilangan 4 digit
+
+Deklarasi
+	bilangan,satuan,puluh,ratus :int
+
+Deskripsi
+	1.read (bilangan)
+
+	2.if (bilangan<=11) then write(bilangan)
+
+	3.else if (bilangan > 11 && bilangan <= 19) then bilangan <-bilangan/10
+
+	4.write (bilangan "belas")
+
+	5.else if (bilangan >19  && bilangan <= 99) then satuan <-bilangan % 10
+
+	7.bilangan <- bilangan/10;
+
+	8.write (bilangan "puluh")
+
+	9.else if (bilangan > 100 && bilangan <=999) then puluh <- bilangan % 100
+	
+	10.bilangan <- bilangan/100
+	
+	11.write (bilangan "ratus")
+	
+	12.else if if(bilangan > 999 && bilangan <=9999) then ratus <- bilangan % 1000
+	
+	13. bilangan <- bilangan/1000
+
+	14.write (bilangan "ribu")
+	
