@@ -13,12 +13,9 @@ main(){
 	hasil = pangkat(a,b);
 	cout<<a<<" pangkat "<<b<<" = "<<hasil;
 	cout<<endl;cout<<a;
-	cout<<endl;cout<<exp(1);
-	cout<<endl;cout<<exp(2);
-	cout<<endl;cout<<exp(3);
-	cout<<endl;cout<<exp(4);
 	cout<<endl;cout<<b;
 	cout<<endl;cout<<log(a);
 	cout<<endl;cout<<b*log(a);
+	cout<<endl;cout<<(exp(b*log(a)));
 	return 0;
 }
