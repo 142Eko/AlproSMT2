@@ -1,31 +1,29 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-class rekur54{
+class kasus54{
 	private:
-		int a,b,n=2;
+		int a,b;
 	public:
-		int kali(int n,int x,int y){
-		if(n==0){
+		int kali(int m,int n){
 			int i,hasil=0;
-			for(i = 1 ; i <= abs(y); i++){
-				hasil +=x;
+			for(i = 1 ; i <= abs(b); i++){
+				hasil +=m;
 				}
-			if (y<0){
+			if (n<0){
 				return (-hasil);
 			}
 			else{
 				return (hasil);
 			}
 		}
-		else{
-			return (kali(n-1,x,y));
-		}
-		}
-		
 		void ino4(){
 			cout<<"Masukkan bilangan 1  = ";cin>>a;
 			cout<<"Dikalikan dengan     = ";cin>>b;
-			cout<<a<<" X "<<b<<"		     = "<<kali(n,a,b);
+			cout<<a<<" X "<<b<<"      	     = "<<kali(a,b);
 		}
 };
+main(){
+	kasus54 o;
+	o.ino4();
+}

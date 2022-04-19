@@ -11,9 +11,6 @@ class ite58{
 				r=c%d;
 				c=d;
 				d=r;
-				cout<<"Nilai r = "<<r<<endl;
-				cout<<"Nilai c = "<<c<<endl;
-				cout<<"Nilai d = "<<d<<endl;
 			}
 			return(c);
 		}
