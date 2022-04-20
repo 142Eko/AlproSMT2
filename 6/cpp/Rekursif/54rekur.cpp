@@ -3,7 +3,7 @@
 using namespace std;
 class kasus54{
 	private:
-		int a,b,i = 1,hasil = 0,n=2;
+		int a,b,i = 1,hasil = 0;
 	public:
 		int kali(int i ,int x,int y){
 			
