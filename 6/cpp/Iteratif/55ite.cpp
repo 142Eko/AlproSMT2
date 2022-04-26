@@ -6,7 +6,7 @@ class fak{
 		long int faktorial =1;
 	public:
 		void hit(){
-			cout<<"Faktorial	= ";cin>>b;
+			cout<<"Faktorial iteratif	= ";cin>>b;
 			for(i =1;i <= b; i++){
 				faktorial=faktorial*i;
 			}
